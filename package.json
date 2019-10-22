@@ -1,0 +1,21 @@
+{
+  "name": "todocodeceptjs",
+  "version": "1.0.0",
+  "description": "Demonstrates scenario-driven approach to testing with Puppeteer and CodeceptJS",
+  "main": "sekvan_test.js",
+  "dependencies": {},
+  "devDependencies": {
+    "codeceptjs": "^1.1.0",
+    "puppeteer": "^0.13.0|^1.0.0"
+  },
+  "scripts": {
+   "test": "npx codeceptjs run --steps"
+   
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://https://github.com/sekkvanduz/git123.git"
+  },
+  "author": "",
+  "license": "ISC"
+}

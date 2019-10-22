@@ -1,0 +1,20 @@
+{
+  "output": "./output",
+  "helpers": {
+    "Puppeteer": {
+      "waitForAction": 500,
+      "show":true,
+      "windowSize": "1280x960"
+    },
+    "MyPuppeteer": {
+      "require": "./mypuppeteer_helper.js"
+    }
+  },
+  "mocha": {},
+  "bootstrap": false,
+  "teardown": null,
+  "hooks": [],
+  "tests": "./*_test.js",
+  "timeout": 10000,
+  "name": "todoreact"
+}
